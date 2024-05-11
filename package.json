@@ -1,0 +1,18 @@
+{
+  "name": "crofl-v2",
+  "module": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "bun run index.js",
+    "register": "bun run register.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.2"
+  }
+}
